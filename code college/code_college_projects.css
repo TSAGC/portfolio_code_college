@@ -1,0 +1,59 @@
+body{
+    background-color: #18181b;
+    color: #FFF;
+    font-family: Arial, sans-serif;
+}
+
+nav h4{
+    font-size: 24px; 
+}
+
+.link a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #fff;
+}
+
+link a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1d4ed8;
+    transition: all 0.3s ease;
+}
+
+.link a:hover::after{
+    width: 70%;
+}
+
+.blur{
+    position: absolute;
+    box-shadow:  0 0 1000px 50px #1b4ed8;
+    z-index: -100;
+}
+
+.blur2{
+    position: absolute;
+    box-shadow:  0 0 1000px 50px #1b4ed8;
+    z-index: -100;
+
+}
+
+h4{
+    padding: 10px;
+}
+
+footer {
+    background-color: #1d4ed8; /* Change the background color of the footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+footer p {
+    margin-bottom: 0; /* Remove margin from the bottom of the paragraph */
+}

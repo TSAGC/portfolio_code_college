@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="hangman.css">
+</head>
+<body>
+    
+    <div id="body" class="body">
+        <img src="_a4f5b196-75f1-4dee-8949-a71af28c4653.jpeg" alt="photo of a man on a hanging post">
+        <h3 id="words" class="words">:</h3>
+        <button onclick="generate_word()">New Word</button>
+        <div class="input">
+            <input type="text" name="letterInput" id="letterInput" maxlength="1">
+            <button onclick="check()" >check</button>
+        </div>
+    </div>
+    <script src="hangman.js"></script>
+</body>
+</html>

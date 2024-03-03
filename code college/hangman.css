@@ -1,0 +1,36 @@
+body {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.body {
+    position: relative; /* Make the parent container for absolute positioning */
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.words {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    font-size: 24px;
+}
+
+.input{
+        position: absolute;
+        bottom: 10px; /* Adjust the distance from the bottom */
+}
+img{ height: 150px;
+     width: 150px;
+}
